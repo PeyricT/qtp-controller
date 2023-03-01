@@ -1,1 +1,0 @@
-{"version":3,"file":"unigo.module.js","sourceRoot":"","sources":["../../src/unigo/unigo.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAoD;AACpD,yDAAqD;AACrD,mDAA+C;AAO/C,IAAa,WAAW,GAAxB,MAAa,WAAW;CAAG,CAAA;AAAd,WAAW;IALvB,eAAM,CAAC;QACJ,OAAO,EAAE,CAAC,mBAAU,CAAC;QACrB,WAAW,EAAE,CAAC,kCAAe,CAAC;QAC9B,SAAS,EAAE,CAAC,4BAAY,CAAC;KAC5B,CAAC;GACW,WAAW,CAAG;AAAd,kCAAW"}
