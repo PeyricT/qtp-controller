@@ -4,18 +4,18 @@ import { Observable } from 'rxjs/internal/Observable';
 import { UniprotService } from './uniprot.service';
 import { UniprotBatchRequest } from './dto/uniprot.dto';
 
-@Controller()
+@Controller('api/uniprot')
 export class UniprotController {
   constructor(private readonly uniprotService: UniprotService) {}
   // Guard This TO DO
-  @Get('/api/uniprot/get/:id')
+  @Get('get/:id')
   async getUniprot(@Param() params): Promise<any> {
     //Observable<AxiosResponse<any>>{
     const resp = await this.uniprotService.getUniprot(params.id);
     console.dir(resp);
     return resp.data;
   }
-  @Get('/api/uniprot/dimension')
+  @Get('dimension')
   async getLength(): Promise<any> {
     //Observable<AxiosResponse<any>>{
     const resp = await this.uniprotService.length();
@@ -23,13 +23,13 @@ export class UniprotController {
     return resp.data;
   }
 
-  @Get('/api/uniprot/version')
+  @Get('version')
   async getVersion(): Promise<any> {
     const resp = await this.uniprotService.version();
     return resp.data;
   }
 
-  @Post('/api/uniprot/many')
+  @Post('many')
   async getUniprotMany(
     @Body() uniprotBatchRequest: UniprotBatchRequest,
   ): Promise<any> {
@@ -46,11 +46,10 @@ export class UniprotController {
     return resp.data;
   }
 
-  @Post('/api/uniprot/proteome_scan')
+  @Post('proteome_scan')
   async proteomeScan(
     @Body() proteomeScanRequest: UniprotBatchRequest,
   ): Promise<any> {
-    //Observable<AxiosResponse<any>>{
     console.log(
       `/api/uniprot/proteome_scan with ${proteomeScanRequest.uniprotIDs.length} proteins`,
     );

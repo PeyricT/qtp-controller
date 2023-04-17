@@ -1,0 +1,677 @@
+
+> qtp-controller@0.0.1 start
+> nest start
+
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +63ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mServeStaticModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mUniprotModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mEnsemblModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mMultiomicsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mUnigoModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[InstanceLoader] [39m[32mPwasModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RoutesResolver] [39m[32mPwasController {}:[39m[38;5;3m +26ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pwas, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pwas/ora, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RoutesResolver] [39m[32mUniprotController {/api/uniprot}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/uniprot/get/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/uniprot/dimension, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/uniprot/version, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/uniprot/many, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/uniprot/proteome_scan, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RoutesResolver] [39m[32mEnsemblController {/api/ensembl}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ensembl/get/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ensembl/dimension, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ensembl/version, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ensembl/genes, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ensembl/listids, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/ensembl/proteome_scan, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RoutesResolver] [39m[32mMultiomicsController {/api/multiomics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/multiomics/cover, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RoutesResolver] [39m[32mUnigoController {}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/unigo, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/unigo/vector/:taxid, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/unigo/trimmedVectorByProt, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[RouterExplorer] [39m[32mMapped {/api/unigo/trimmedVector, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 470   - [39m04/17/2023, 8:43:22 AM   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+/api/uniprot/proteome_scan with 2298 proteins
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    date: 'Mon, 17 Apr 2023 09:00:26 GMT',
+    server: 'uvicorn',
+    'content-length': '3272',
+    'content-type': 'application/json',
+    connection: 'close'
+  },
+  config: {
+    url: 'http://localhost:2333/uniprot/A0A087WV00',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.1'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'localhost',
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(async_id_symbol)]: 50,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: false,
+      [Symbol(kSetKeepAliveInitialDelay)]: 0,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /uniprot/A0A087WV00 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.1\r\n' +
+      'Host: localhost:2333\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/uniprot/A0A087WV00',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'http://localhost:2333/uniprot/A0A087WV00',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 10,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'localhost',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://localhost:2333/uniprot/A0A087WV00',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    id: 'A0A087WV00',
+    full_name: 'Diacylglycerol kinase',
+    name: 'A0A087WV00_HUMAN',
+    gene_name: 'DGKI',
+    taxid: 9606,
+    sequence: 'MDAAGRGCHLLPLPAARGPARAPAAAAAAAASPPGPCSGAACAPSAAAGAGAMNPSSSAGEEKGATGGSSSSGSGAGSCCLGAEGGADPRGAGSAAAAGAAALDEPAAAGQKEKDEALEEKLRNLTFRKQVSYRKAISRAGLQHLAPAHPLSLPVANGPAKEPRATLDWSENAVNGEHLWLETNVSGDLCYLGEENCQVRFAKSALRRKCAVCKIVVHTACIEQLEKINFRCKPTFREGGSRSPRENFVRHHWVHRRRQEGKCKQCGKGFQQKFSFHSKEIVAISCSWCKQAFHNKVTCFMLHHIEEPCSLGAHAAVIVPPTWIIKVKKPQNSLKASNRKKKRTSFKRKASKRGMEQENKGRPFVIKPISSPLMKPLLVFVNPKSGGNQGTKVLQMFMWYLNPRQVFDLSQEGPKDALELYRKVPNLRILACGGDGTVGWILSILDELQLSPQPPVGVLPLGTGNDLARTLNWGGGYTDEPVSKILCQVEDGTVVQLDRWNLHVERNPDLPPEELEDGVCKLPLNVFNNYFSLGFDAHVTLEFHESREANPEKFNSRFRNKMFYAGAAFSDFLQRSSRDLSKHVKVVCDGTDLTPKIQELKFQCIVFLNIPRYCAGTMPWGNPGDHHDFEPQRHDDGYIEVIGFTMASLAALQVGGHGERLHQCREVMLLTYKSIPMQVDGEPCRLAPAMIRISLRNQANMVQKSKRRTSMPLLNDPQSVPDRLRIRVNKISLQDYEGFHYDKEKLREASIPLGILVVRGDCDLETCRMYIDRLQEDLQSVSSGSQRVHYQDHETSFPRALSAQRLSPRWCFLDATSADRFYRIDRSQEHLHFVMEISQDEIFILDPDMVVSQPAGTPPGMPDLVVEQASGISDWWNPALRKRMLSDSGLGMIAPYYEDSDLKDLSHSRVLQSPVSSEDHAILQAVIAGDLMKLIESYKNGGSLLIQGPDHCSLLHYAAKTGNGEIVKYILDHGPSELLDMADSETGETALHKAACQRNRAVCQLLVDAGASLRKTDSKGKTPQERAQQAGDPDLAAYLESRQNYKVIGHEDLETAV',
+    go: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    db_reference: { Ensembl: [Array], GeneID: [Array] }
+  }
+}
+/api/uniprot/proteome_scan with 2298 proteins
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    date: 'Mon, 17 Apr 2023 09:03:07 GMT',
+    server: 'uvicorn',
+    'content-length': '3272',
+    'content-type': 'application/json',
+    connection: 'close'
+  },
+  config: {
+    url: 'http://localhost:2333/uniprot/A0A087WV00',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.1'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'localhost',
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(async_id_symbol)]: 115,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: false,
+      [Symbol(kSetKeepAliveInitialDelay)]: 0,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /uniprot/A0A087WV00 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.1\r\n' +
+      'Host: localhost:2333\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/uniprot/A0A087WV00',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'http://localhost:2333/uniprot/A0A087WV00',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 10,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'localhost',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://localhost:2333/uniprot/A0A087WV00',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    id: 'A0A087WV00',
+    full_name: 'Diacylglycerol kinase',
+    name: 'A0A087WV00_HUMAN',
+    gene_name: 'DGKI',
+    taxid: 9606,
+    sequence: 'MDAAGRGCHLLPLPAARGPARAPAAAAAAAASPPGPCSGAACAPSAAAGAGAMNPSSSAGEEKGATGGSSSSGSGAGSCCLGAEGGADPRGAGSAAAAGAAALDEPAAAGQKEKDEALEEKLRNLTFRKQVSYRKAISRAGLQHLAPAHPLSLPVANGPAKEPRATLDWSENAVNGEHLWLETNVSGDLCYLGEENCQVRFAKSALRRKCAVCKIVVHTACIEQLEKINFRCKPTFREGGSRSPRENFVRHHWVHRRRQEGKCKQCGKGFQQKFSFHSKEIVAISCSWCKQAFHNKVTCFMLHHIEEPCSLGAHAAVIVPPTWIIKVKKPQNSLKASNRKKKRTSFKRKASKRGMEQENKGRPFVIKPISSPLMKPLLVFVNPKSGGNQGTKVLQMFMWYLNPRQVFDLSQEGPKDALELYRKVPNLRILACGGDGTVGWILSILDELQLSPQPPVGVLPLGTGNDLARTLNWGGGYTDEPVSKILCQVEDGTVVQLDRWNLHVERNPDLPPEELEDGVCKLPLNVFNNYFSLGFDAHVTLEFHESREANPEKFNSRFRNKMFYAGAAFSDFLQRSSRDLSKHVKVVCDGTDLTPKIQELKFQCIVFLNIPRYCAGTMPWGNPGDHHDFEPQRHDDGYIEVIGFTMASLAALQVGGHGERLHQCREVMLLTYKSIPMQVDGEPCRLAPAMIRISLRNQANMVQKSKRRTSMPLLNDPQSVPDRLRIRVNKISLQDYEGFHYDKEKLREASIPLGILVVRGDCDLETCRMYIDRLQEDLQSVSSGSQRVHYQDHETSFPRALSAQRLSPRWCFLDATSADRFYRIDRSQEHLHFVMEISQDEIFILDPDMVVSQPAGTPPGMPDLVVEQASGISDWWNPALRKRMLSDSGLGMIAPYYEDSDLKDLSHSRVLQSPVSSEDHAILQAVIAGDLMKLIESYKNGGSLLIQGPDHCSLLHYAAKTGNGEIVKYILDHGPSELLDMADSETGETALHKAACQRNRAVCQLLVDAGASLRKTDSKGKTPQERAQQAGDPDLAAYLESRQNYKVIGHEDLETAV',
+    go: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    db_reference: { Ensembl: [Array], GeneID: [Array] }
+  }
+}
+/api/uniprot/proteome_scan with 2298 proteins
+/api/uniprot/proteome_scan with 2298 proteins
+/api/uniprot/proteome_scan with 2298 proteins
+/api/uniprot/proteome_scan with 2298 proteins
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    date: 'Mon, 17 Apr 2023 09:33:40 GMT',
+    server: 'uvicorn',
+    'content-length': '3272',
+    'content-type': 'application/json',
+    connection: 'close'
+  },
+  config: {
+    url: 'http://localhost:2333/uniprot/A0A087WV00',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.1'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'localhost',
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(async_id_symbol)]: 280,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: false,
+      [Symbol(kSetKeepAliveInitialDelay)]: 0,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /uniprot/A0A087WV00 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.1\r\n' +
+      'Host: localhost:2333\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/uniprot/A0A087WV00',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'http://localhost:2333/uniprot/A0A087WV00',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 10,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'localhost',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://localhost:2333/uniprot/A0A087WV00',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  data: {
+    id: 'A0A087WV00',
+    full_name: 'Diacylglycerol kinase',
+    name: 'A0A087WV00_HUMAN',
+    gene_name: 'DGKI',
+    taxid: 9606,
+    sequence: 'MDAAGRGCHLLPLPAARGPARAPAAAAAAAASPPGPCSGAACAPSAAAGAGAMNPSSSAGEEKGATGGSSSSGSGAGSCCLGAEGGADPRGAGSAAAAGAAALDEPAAAGQKEKDEALEEKLRNLTFRKQVSYRKAISRAGLQHLAPAHPLSLPVANGPAKEPRATLDWSENAVNGEHLWLETNVSGDLCYLGEENCQVRFAKSALRRKCAVCKIVVHTACIEQLEKINFRCKPTFREGGSRSPRENFVRHHWVHRRRQEGKCKQCGKGFQQKFSFHSKEIVAISCSWCKQAFHNKVTCFMLHHIEEPCSLGAHAAVIVPPTWIIKVKKPQNSLKASNRKKKRTSFKRKASKRGMEQENKGRPFVIKPISSPLMKPLLVFVNPKSGGNQGTKVLQMFMWYLNPRQVFDLSQEGPKDALELYRKVPNLRILACGGDGTVGWILSILDELQLSPQPPVGVLPLGTGNDLARTLNWGGGYTDEPVSKILCQVEDGTVVQLDRWNLHVERNPDLPPEELEDGVCKLPLNVFNNYFSLGFDAHVTLEFHESREANPEKFNSRFRNKMFYAGAAFSDFLQRSSRDLSKHVKVVCDGTDLTPKIQELKFQCIVFLNIPRYCAGTMPWGNPGDHHDFEPQRHDDGYIEVIGFTMASLAALQVGGHGERLHQCREVMLLTYKSIPMQVDGEPCRLAPAMIRISLRNQANMVQKSKRRTSMPLLNDPQSVPDRLRIRVNKISLQDYEGFHYDKEKLREASIPLGILVVRGDCDLETCRMYIDRLQEDLQSVSSGSQRVHYQDHETSFPRALSAQRLSPRWCFLDATSADRFYRIDRSQEHLHFVMEISQDEIFILDPDMVVSQPAGTPPGMPDLVVEQASGISDWWNPALRKRMLSDSGLGMIAPYYEDSDLKDLSHSRVLQSPVSSEDHAILQAVIAGDLMKLIESYKNGGSLLIQGPDHCSLLHYAAKTGNGEIVKYILDHGPSELLDMADSETGETALHKAACQRNRAVCQLLVDAGASLRKTDSKGKTPQERAQQAGDPDLAAYLESRQNYKVIGHEDLETAV',
+    go: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    db_reference: { Ensembl: [Array], GeneID: [Array] }
+  }
+}
+/api/uniprot/proteome_scan with 2298 proteins
